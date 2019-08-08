@@ -4,7 +4,7 @@
 #
 Name     : mvn-ldapsdk
 Version  : 20020819
-Release  : 1
+Release  : 2
 URL      : https://www-archive.mozilla.org/directory/ldapsdk_java_20020819.tar.gz
 Source0  : https://www-archive.mozilla.org/directory/ldapsdk_java_20020819.tar.gz
 Source1  : https://repo1.maven.org/maven2/ldapsdk/ldapsdk/4.1/ldapsdk-4.1.jar
@@ -13,6 +13,8 @@ Summary  : No detailed summary available
 Group    : Development/Tools
 License  : NPL-1.0
 Requires: mvn-ldapsdk-data = %{version}-%{release}
+BuildRequires : apache-ant
+BuildRequires : buildreq-mvn
 
 %description
 Jar files in this directory are used only for compilation and are
