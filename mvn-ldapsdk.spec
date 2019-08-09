@@ -4,7 +4,7 @@
 #
 Name     : mvn-ldapsdk
 Version  : 20020819
-Release  : 2
+Release  : 3
 URL      : https://www-archive.mozilla.org/directory/ldapsdk_java_20020819.tar.gz
 Source0  : https://www-archive.mozilla.org/directory/ldapsdk_java_20020819.tar.gz
 Source1  : https://repo1.maven.org/maven2/ldapsdk/ldapsdk/4.1/ldapsdk-4.1.jar
